@@ -9,9 +9,4 @@ let name = "John";
 let output = <span>James is {age} years old</span>;
 
 // use react-dom to render it
-ReactDOM.render(
-	<span>
-		{name} is {age} years old
-	</span>,
-	document.querySelector("#myDiv")
-);
+ReactDOM.render(output, document.querySelector("#myDiv"));
